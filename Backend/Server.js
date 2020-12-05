@@ -14,6 +14,10 @@ connection.once('open', () => {
     console.log("Mongoose connection established");
 } )
 
+const homeRouter = require('./routes/home');
+const bookRouter = require('./routes/bookticket')
+app.use('/',homeRouter);
+app.use('/bookticket',bookRouter);
 
 app.use(cors());
 app.use(express.json());
