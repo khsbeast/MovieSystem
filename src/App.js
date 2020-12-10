@@ -12,10 +12,6 @@ const App =() => {
      <Data />
      <div style={{display:"flex",justifyContent:"space-around",paddingTop:"4vh"}}>
      <Card />
-     <Card />
-     <Card />
-     <Card />
-     <Card />
      </div>
      <Last/>
     </div>

@@ -11,7 +11,7 @@ object-fit: cover;
 outline: none;
 }
 body{
-  background-color: rgba(12, 12, 12, 0.9);
+  background-color:#fff;
 }
 h2 {
   font-size: 42px;
